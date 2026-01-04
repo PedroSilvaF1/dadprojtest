@@ -1,0 +1,18 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "Bisca Multiplayer Server",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
